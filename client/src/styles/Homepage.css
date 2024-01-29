@@ -1,0 +1,98 @@
+ /* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    min-height: 100%;
+    min-width: 100%;
+  }
+  .card img{
+   height: 100px;
+   width: 100px;
+    display: block; 
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 380px;
+    padding: 20px;
+  }
+  
+  .content {
+    position: fixed;
+    top: 100px;
+    left: 70%; 
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+  
+  .myBtn {
+    width: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 40px;
+    border: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .myBtn:hover {
+    background-color: white;
+    color: #000;
+  }  */
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.card {
+    width: 380px;
+    padding: 20px;
+
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0; /* Remove auto margin */
+}
+
+.content {
+    position: fixed;
+    top: 100px;
+    left: 70%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: calc(100% - 120px); /* Adjusted width to leave space for the image */
+    padding: 15px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.myBtn {
+    width: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 40px;
+    border: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+
+.myBtn:hover {
+    background-color: white;
+    color: #000;
+}
+
